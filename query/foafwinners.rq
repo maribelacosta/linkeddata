@@ -1,0 +1,8 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+PREFIX tax: <http://people.aifb.kit.edu/yt2652/ldhd/taxonomy.ttl#>
+SELECT ?w ?a
+WHERE {
+ ?w rdf:type foaf:Person .
+ ?w tax:hasWonAward ?a .
+}
