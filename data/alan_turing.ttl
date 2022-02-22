@@ -7,4 +7,4 @@
              :discipline :Mathematics, :Computer_Science ;
              foaf:name "Alan Turing" ;
              :almaMater :University_of_Cambridge ;
-             owl:sameAs <https://dbpedia.org/resource/Alan_Turing> .
+             owl:sameAs <http://dbpedia.org/resource/Alan_Turing> .
