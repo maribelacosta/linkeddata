@@ -1,0 +1,6 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX tax: <https://raw.githubusercontent.com/maribelacosta/linkeddata/master/data/taxonomy.ttl#>
+SELECT ?a
+WHERE {
+ ?a rdfs:subClassOf tax:Award .
+}
